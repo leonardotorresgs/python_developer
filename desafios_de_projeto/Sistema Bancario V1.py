@@ -2,12 +2,10 @@ from time import sleep
 import os
 menu = '''
 ======== BANCO ========
-
 [0] - Saque
 [1] - Depósito
 [2] - Extrato
 [3] - Sair
-
 =======================
 '''
 saldo = 0
@@ -90,3 +88,4 @@ while True:
            print(f'{i}...')
            sleep(0.8)
         os.system("cls")
+        

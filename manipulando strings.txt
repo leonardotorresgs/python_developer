@@ -1,0 +1,74 @@
+MANIPULAÇÃO DE STRINGS
+
+Maiúscula, minúscula e título:
+
+    curso = "pYtHon"
+
+    print(curso.upper())
+    >>> PYTHON
+
+    print(curso.lower())
+    >>> python
+
+    print(curso.title())
+    >>> Python
+
+Eliminando espaços:
+
+    curso = "    Python "
+
+    print(curso.strip())
+    >>> "Python"
+
+    print(curso.lstrip())
+    >>> "Python "
+
+    print(curso.rstrip())
+    >>> "    Python"
+
+Junções e centralização:
+
+    curso = "Python"
+
+    print(curso.center(10, "#"))
+    >>> "##Python##"
+
+    print(".".join(curso))
+    >>> "P.y.t.h.o.n"
+
+Formatar strings com f-string:
+
+    PI = 3.14159
+
+    print(f"Valor de PI: {PI:.2f}")
+    >>> "Valor de PI: 3.14"
+
+    print(f"Valor de PI: {PI:10.2f}")
+    >>> "Valor de PI:      3.14"
+
+Fatiamento:
+
+    nome = "Guilherme Arthur de Carvalho"
+
+    nome[0]
+    >>> "G"
+
+    nome[:9]
+    >>> "Guilherme"
+
+    nome[10:]
+    >>> "Arthur de Carvalho
+
+    nome[10:16]
+    >>> "Arthur"
+
+    nome[10:16:2]
+    >>> "Atu"
+
+    nome[:]
+    >>> "Guilherme Arthur de Carvalho"
+
+    nome[::-1]
+    >>> "ohlavraC ed ruhtrA emrehliuG"
+
+
